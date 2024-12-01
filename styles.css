@@ -1,0 +1,43 @@
+body{
+    width: 500px;
+    display: block;
+    margin: 10px auto;
+}
+
+.avatar{
+    width: 180px;
+    border-radius: 100px;
+    transition: transform .3s;
+    
+}
+
+.avatar:hover{
+    transform: scale(1.2);
+}
+
+.border-blue{
+    border: 1px solid blue;
+}
+
+.business-card-body {                      
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+    background-color: #344e41;
+    color: #dad7cd;
+    border-radius: 10px;
+    border-bottom: 8px solid #b5e48c;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+.Triangle {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #555;
+}
+
+.Info{
+    padding: 30px;
+}
